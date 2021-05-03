@@ -14,10 +14,10 @@ import { UploadService } from './upload.service';
       },
     }),
     BullModule.registerQueue({
-      name: 'upload',
+      name: 'upload'
     }),
   ],
   controllers: [UploadController],
   providers: [UploadService, ImageUploadExecutor],
 })
-export class UploadModule {}
+export class UploadModule { }
