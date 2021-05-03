@@ -16,6 +16,6 @@ export class AppModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
     consumer
       .apply(UploadMiddleware.validateUploadFolder)
-      .forRoutes({ path: '/upload/image', method: RequestMethod.POST });
+      .forRoutes({ path: '/upload/file', method: RequestMethod.POST });
   }
 }
