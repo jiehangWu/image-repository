@@ -70,3 +70,15 @@ $ npm start
 - [ ] Endpoint guard/authorization
 - [ ] Process files/images in chunks to make sure they fit in memory
 
+## Sample Input And Output
+**Input:**
+
+![alt text](https://github.com/jiehangWu/image-repository/blob/master/resource/input.png?raw=true)
+
+**Output:**
+
+![alt text](https://github.com/jiehangWu/image-repository/blob/master/resource/output.png?raw=true)
+
+
+
+
